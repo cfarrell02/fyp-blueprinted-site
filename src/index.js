@@ -12,8 +12,8 @@ ReactDOM.render(
   <React.StrictMode>
       <Router>
         <Routes>
-          <Route path="/home" element={<MainPage />} />
-          <Route path="*" element={<Navigate to="/home" replace />} />
+          <Route path="/fyp-blueprinted-site" element={<MainPage />} />
+          <Route path="*" element={<Navigate to="/fyp-blueprinted-site" replace />} />
           {/* Add more Route components for other paths */}
         </Routes>
       </Router>
