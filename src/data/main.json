@@ -1,0 +1,32 @@
+{
+    "name" : "Cian Farrell",
+    "student_number" : "20094046",
+    "course" : "Computer Science (Games)",
+    "titles" : {
+        "academic_title" : "Placeholder academic title",
+        "commercial_title" : "Blueprinted"
+    },
+    "project_description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image_file" : "PFP_White.png",
+    "logo_file" : "Blueprinted_Logo.png",
+    "links" : [
+        {
+            "name": "Project Repository",
+            "description": "Github repository for the project",
+            "url": "https://github.com/cfarrell02/FYP-Blueprinted",
+            "image": "GitHub-logo.png"
+        },
+        {
+            "name": "Poster",
+            "description": "Poster for the project",
+            "url": "https://www.placeholder.com",
+            "image": null
+        },
+        {
+            "name": "Demo Video",
+            "description": "Demo video for the project",
+            "url": "https://www.placeholder.com",
+            "image": null
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+.linkCard {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .linkCard:hover {
+    background-color: #b6b6b6;
+    transform: translateY(-2px); /* Adjust the value as needed for the desired effect */
+  }
+  
+  .linkCard:active {
+    background-color: #979797;
+    transform: translateY(0);
+  }
+  
