@@ -8,6 +8,7 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import DescriptionIcon from '@mui/icons-material/Description';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
+import { useTheme } from '@emotion/react';
 
 const MainPage = () => {
   const {
@@ -25,8 +26,11 @@ const MainPage = () => {
   const image = require("../../images/" + image_file)
   const logo = require("../../images/" + logo_file)
 
-  const logos = [GitHubIcon, DescriptionIcon, OndemandVideoIcon]
-
+  const icons = [
+    { icon: <GitHubIcon />, text: "GitHub" },
+    { icon: <DescriptionIcon />, text: "Description" },
+    { icon: <OndemandVideoIcon />, text: "OndemandVideo" },
+  ]
 
   return (
     <Container sx={{alignContent: 'center', alignItems: 'center', justifyContent: 'center',
@@ -48,22 +52,22 @@ const MainPage = () => {
         <Grid item xs={4}>
           <ImageCard imageURL={image} altText={name} caption={name} />
         </Grid>
-        <Grid item xs={12} sx={{justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
-        <List sx={{margin: '1em 0 0 0'}}>
-          <ListItem sx={{width: '100%', margin: '1em 0 0 0'}}>
-            <ListItemIcon>
-              <SchoolIcon />
-            </ListItemIcon>
-            <ListItemText primary={titles.academic_title} secondary={"Academic Title"} />
-          </ListItem>
-          <ListItem sx={{width: '100%', margin: '1em 0 0 0'}}>
-          <ListItemIcon>
-              <TrendingUpIcon />
-            </ListItemIcon>
-            <ListItemText primary={titles.commercial_title} secondary={"Commercial Title"} />
-          </ListItem>
-        </List>
-        </Grid>
+        <Grid item xs={12} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' }}>
+  <ListItem >
+    <ListItemIcon>
+      <SchoolIcon />
+    </ListItemIcon>
+    <ListItemText primary={titles.academic_title} secondary={"Academic Title"} />
+  </ListItem>
+  <ListItem > 
+    <ListItemIcon>
+      <TrendingUpIcon />
+    </ListItemIcon>
+    <ListItemText primary={titles.commercial_title} secondary={"Commercial Title"} />
+  </ListItem>
+</Grid>
+
+
         </Grid>
 
 
@@ -73,7 +77,7 @@ const MainPage = () => {
         <Grid container spacing={2}>
           {links.map((link, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
-              <LinkCard description={link.description} link={link.url} title={link.name} icon={null} />
+              <LinkCard description={link.description} link={link.url} title={link.name} icon={icons[index]} />
             </Grid>
           ))}
         </Grid>

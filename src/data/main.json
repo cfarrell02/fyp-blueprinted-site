@@ -13,20 +13,17 @@
         {
             "name": "Repository",
             "description": "Github repository for the project",
-            "url": "https://github.com/cfarrell02/FYP-Blueprinted",
-            "image": "GitHub-logo.png"
+            "url": "https://github.com/cfarrell02/FYP-Blueprinted"  
         },
         {
             "name": "Poster",
             "description": "Poster for the project",
-            "url": "https://www.placeholder.com",
-            "image": null
+            "url": "#"
         },
         {
             "name": "Demo Video",
             "description": "Demo video for the project",
-            "url": "https://www.placeholder.com",
-            "image": null
+            "url": "#"
         }
     ]
 }
