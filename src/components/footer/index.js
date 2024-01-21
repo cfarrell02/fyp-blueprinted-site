@@ -9,7 +9,7 @@ const Footer = () => {
     const lightGrey = "#e0e0e0";
     const link = {
         text: "Code Available Here on GitHub",
-        url: "https://github.com/cfarrell02/portfolio-site"
+        url: "https://github.com/cfarrell02/fyp-blueprinted-site"
     }
 
     return (
