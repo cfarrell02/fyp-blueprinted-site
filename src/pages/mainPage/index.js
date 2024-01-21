@@ -32,13 +32,17 @@ const MainPage = () => {
     { icon: <OndemandVideoIcon />, text: "OndemandVideo" },
   ]
 
+  const titleItems = [
+    { icon: <SchoolIcon />, text: "Academic Title", title: titles.academic_title },
+    { icon: <TrendingUpIcon />, text: "Commercial Title", title: titles.commercial_title },
+  ]
+
   return (
     <Container sx={{alignContent: 'center', alignItems: 'center', justifyContent: 'center',
-     display: 'flex', flexDirection: 'column',width:'70%', padding:'2em', margin:'2em auto'}}>
-        <Box sx={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', backgroundColor: '#f5f5f5', borderRadius: '1em',
-         borderColor: '#418AB3', borderWidth: 'px', borderStyle: 'solid' }}>
-        <img src={logo} alt="Project Image" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1em'}} />
-        </Box>
+     display: 'flex', flexDirection: 'column',width:'75%', padding:'2em', margin:'2em auto'}}>
+
+        <img src={logo} alt="Project Logo" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} />
+
         <Typography variant="p" sx={{margin: '1em 0 0 0'}}>{`This is a project by ${name} (${student_number}) for ${course}`}</Typography>
         <Typography variant="h4" sx={{margin: '1em 0 0 0'}}>Project Details</Typography>
         <Divider sx={{width: '100%', margin: '1em 0'}} />
@@ -52,20 +56,18 @@ const MainPage = () => {
         <Grid item xs={4}>
           <ImageCard imageURL={image} altText={name} caption={name} />
         </Grid>
-        <Grid item xs={12} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' }}>
-  <ListItem >
-    <ListItemIcon>
-      <SchoolIcon />
-    </ListItemIcon>
-    <ListItemText primary={titles.academic_title} secondary={"Academic Title"} />
-  </ListItem>
-  <ListItem > 
-    <ListItemIcon>
-      <TrendingUpIcon />
-    </ListItemIcon>
-    <ListItemText primary={titles.commercial_title} secondary={"Commercial Title"} />
-  </ListItem>
-</Grid>
+        <Grid item xs={12} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' , margin: '1em 0'}}>
+        {titleItems.map((title, index) => (
+
+         <ListItem key={index} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row', width: '23%' }}>
+          <ListItemIcon>
+            {title.icon}
+          </ListItemIcon>
+          <ListItemText primary={title.text} secondary={title.title} />
+        </ListItem>
+
+        ))}
+      </Grid>
 
 
         </Grid>

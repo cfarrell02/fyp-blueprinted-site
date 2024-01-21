@@ -14,7 +14,7 @@ const Footer = () => {
 
     return (
         
-        <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1em' }}>
+        <Container sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '1em' , color: '#4d4d4d'}}>
             <Divider sx={{width: '100%', margin: '1em 0', backgroundColor: lightGrey}} />
             <Typography variant="p">{message}</Typography>
             <Typography variant="p" sx={{margin:'1em 0'}}><a href={link.url} style={{ color: 'inherit'}}>{link.text}</a></Typography>

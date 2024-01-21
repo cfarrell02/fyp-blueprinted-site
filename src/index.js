@@ -10,12 +10,13 @@ import reportWebVitals from './reportWebVitals';
 import { Navigate } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
+import { Box } from '@mui/material';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={lightTheme}>
       {/* <Header /> */}
+      <Box className="square" >
       <Router>
         <Routes>
           <Route path="/fyp-blueprinted-site" element={<MainPage />} />
@@ -23,8 +24,8 @@ ReactDOM.render(
           {/* Add more Route components for other paths */}
         </Routes>
       </Router>
+      </Box>
       <Footer />
-    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
