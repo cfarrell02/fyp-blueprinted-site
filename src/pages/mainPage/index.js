@@ -59,11 +59,11 @@ const MainPage = () => {
         <Grid item xs={12} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' , margin: '1em 0'}}>
         {titleItems.map((title, index) => (
 
-         <ListItem key={index} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row', width: '23%' }}>
+         <ListItem key={index} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row', width: '30%' }}>
           <ListItemIcon>
             {title.icon}
           </ListItemIcon>
-          <ListItemText primary={title.text} secondary={title.title} />
+          <ListItemText primary={title.title} secondary={title.text} />
         </ListItem>
 
         ))}
