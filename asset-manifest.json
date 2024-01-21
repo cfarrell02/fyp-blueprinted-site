@@ -1,19 +1,18 @@
 {
   "files": {
     "main.css": "/fyp-blueprinted-site/static/css/main.9b4bc470.css",
-    "main.js": "/fyp-blueprinted-site/static/js/main.616d8592.js",
+    "main.js": "/fyp-blueprinted-site/static/js/main.f39eb5fe.js",
     "static/js/787.b52e1aa2.chunk.js": "/fyp-blueprinted-site/static/js/787.b52e1aa2.chunk.js",
     "static/media/PFP_White.png": "/fyp-blueprinted-site/static/media/PFP_White.f2d6b2e804ebd06a448f.png",
     "static/media/PFP_Original.jpg": "/fyp-blueprinted-site/static/media/PFP_Original.af1f66d00f8c91086a5b.jpg",
-    "static/media/Blueprinted_Logo.png": "/fyp-blueprinted-site/static/media/Blueprinted_Logo.8341928b7beab6c94d51.png",
-    "static/media/GitHub-logo.png": "/fyp-blueprinted-site/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
+    "static/media/Blueprinted_Logo.png": "/fyp-blueprinted-site/static/media/Blueprinted_Logo.46bbdaac03d4b5460d14.png",
     "index.html": "/fyp-blueprinted-site/index.html",
     "main.9b4bc470.css.map": "/fyp-blueprinted-site/static/css/main.9b4bc470.css.map",
-    "main.616d8592.js.map": "/fyp-blueprinted-site/static/js/main.616d8592.js.map",
+    "main.f39eb5fe.js.map": "/fyp-blueprinted-site/static/js/main.f39eb5fe.js.map",
     "787.b52e1aa2.chunk.js.map": "/fyp-blueprinted-site/static/js/787.b52e1aa2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b4bc470.css",
-    "static/js/main.616d8592.js"
+    "static/js/main.f39eb5fe.js"
   ]
 }
