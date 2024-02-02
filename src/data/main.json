@@ -13,17 +13,26 @@
         {
             "name": "Repository",
             "description": "Github repository for the project",
-            "url": "https://github.com/cfarrell02/FYP-Blueprinted"  
+            "url": "https://github.com/cfarrell02/FYP-Blueprinted",
+            "previous_links" : null 
         },
         {
             "name": "Poster",
             "description": "Poster for the project",
-            "url": "#"
+            "url": "#",
+            "previous_links" : null
         },
         {
-            "name": "Demo Video",
+            "name": "Prototype 2",
             "description": "Demo video for the project",
-            "url": "#"
+            "url": "#",
+            "previous_links" : [
+                {
+                    "name": "Prototype 1",
+                    "description": "Demo video for prototype 1",
+                    "url": "https://youtu.be/LbNOVEOzEB0"
+                }
+            ]
         }
     ]
 }
