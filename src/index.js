@@ -10,17 +10,20 @@ import reportWebVitals from './reportWebVitals';
 import { Navigate } from 'react-router-dom';
 import Header from './components/header';
 import Footer from './components/footer';
+import PosterPage from './pages/posterPage';
 import { Box } from '@mui/material';
 
 
 ReactDOM.render(
   <React.StrictMode>
-      {/* <Header /> */}
+      <Header />
       <Box className="square" >
       <Router>
         <Routes>
           <Route path="/fyp-blueprinted-site" element={<MainPage />} />
+          <Route path="/fyp-blueprinted-site/poster" element={<PosterPage />} />
           <Route path="*" element={<Navigate to="/fyp-blueprinted-site" replace />} />
+
           {/* Add more Route components for other paths */}
         </Routes>
       </Router>

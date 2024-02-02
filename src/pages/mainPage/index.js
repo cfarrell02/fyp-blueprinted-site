@@ -8,7 +8,6 @@ import TrendingUpIcon from '@mui/icons-material/TrendingUp';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import DescriptionIcon from '@mui/icons-material/Description';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
-import WarningAmberIcon from '@mui/icons-material/WarningAmber';
 import { useTheme } from '@emotion/react';
 
 const MainPage = () => {
@@ -45,11 +44,7 @@ const MainPage = () => {
      display: 'flex', flexDirection: 'column',width:'75%', padding:'2em', margin:'2em auto'}}>
 
         <img src={logo} alt="Project Logo" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} />
-        <Box sx={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', bgcolor: 'yellow' , width: '100%', padding: '0 0 1em 0', margin: '1em 0'}}>
-          <WarningAmberIcon sx={{margin: '.5em 1em 0'}} />
-        <Typography variant="h6" sx={{margin: '1em 0 0 0'}}>Website is under construction</Typography>
-        <WarningAmberIcon sx={{margin: '.5em 1em 0'}} />
-        </Box>
+        
         <Typography variant="p" sx={{margin: '1em 0 0 0'}}>{`This is a project by ${name} (${student_number}) for ${course}`}</Typography>
         <Typography variant="h4" sx={{margin: '1em 0 0 0'}}>Project Details</Typography>
         <Divider sx={{width: '100%', margin: '1em 0'}} />
