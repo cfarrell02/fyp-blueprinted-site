@@ -41,34 +41,39 @@ const MainPage = () => {
 
   return (
     <Container sx={{alignContent: 'center', alignItems: 'center', justifyContent: 'center',
-     display: 'flex', flexDirection: 'column',width:'75%', padding:'2em', margin:'2em auto'}}>
+     display: 'flex', flexDirection: 'column', padding:'2em', margin:'2em auto'}}>
 
-        <img src={logo} alt="Project Logo" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center'}} />
+        <img src={logo} alt="Project Logo" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%', margin: '1em 0'}} />
         
         <Typography variant="p" sx={{margin: '1em 0 0 0'}}>{`This is a project by ${name} (${student_number}) for ${course}`}</Typography>
         <Typography variant="h4" sx={{margin: '1em 0 0 0'}}>Project Details</Typography>
         <Divider sx={{width: '100%', margin: '1em 0'}} />
         <Grid container spacing={2}>
 
-          <Grid item xs={8} sx={{justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
+          <Grid item md={8} xs ={12}
+          sx={{justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column'}}>
             <Typography variant="h5" sx={{margin: '1em auto'}}> Project Description</Typography>
             <Typography variant="p" sx={{margin: '0 auto', width: '80%'}}
             >{project_description}</Typography>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={4} xs={12} sx={{justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', margin:'2em 0'}}>
           <ImageCard imageURL={image} altText={name} caption={name} />
         </Grid>
         <Grid item xs={12} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' , margin: '1em 0'}}>
+          <Grid container spacing={2} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' }}>
         {titleItems.map((title, index) => (
-
-         <ListItem key={index} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row', width: '30%' }}>
+          <Grid item xs={12} md={6} key={index}>
+         <ListItem key={index} sx={{ justifyContent: 'center', alignItems: 'center', display: 'flex', flexDirection: 'row' }}>
           <ListItemIcon>
             {title.icon}
           </ListItemIcon>
           <ListItemText primary={title.title} secondary={title.text} />
         </ListItem>
+        </Grid>
 
         ))}
+
+        </Grid>
       </Grid>
 
 

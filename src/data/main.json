@@ -3,10 +3,10 @@
     "student_number" : "20094046",
     "course" : "Computer Science (Games)",
     "titles" : {
-        "academic_title" : "Placeholder academic title",
+        "academic_title" : "Procedurally Generated 3D Open-World Unity Game With In-Depth Resource Management and Advanced Enemy AI.",
         "commercial_title" : "Blueprinted"
     },
-    "project_description" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies",
+    "project_description" : "Blueprinted is a 3D game where a player starts in an infinitely expansive procedurally generated world. The player takes the role of a lost adventurer stranded in an abandoned environment. The player must use all resources available to them in order to survive and thrive. With these resources the player can build shelters and defences against nightly waves of enemies.  The player is unable to block themselves away from the enemy and must deal with them in their droves, in a tower defence manner, during the night. Blueprinted contains many complex features such as advanced procedural generation to allow for unique playthroughs each time, advanced enemy AI that will keep players alert and dynamic difficulty that will ensure the game matches the players skill level as they progress through the game.",
     "image_file" : "PFP_White.png",
     "logo_file" : "Blueprinted_Logo.png",
     "links" : [

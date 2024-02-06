@@ -22,17 +22,15 @@ const Header = () => {
         },
     });
 
-    const underConstruction = true;
+    const underConstruction = false;
 
 
     return (
 <ThemeProvider theme={theme}>
-  <AppBar position="static" sx={{ padding: '1em 3em', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+  <AppBar position="static" sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', bgcolor: 'primary.main', width: '100%', padding: '1em ' }}>
+    <Link href="/fyp-blueprinted-site" sx={{ textDecoration: 'none', color: 'white' }}>
     <Typography variant="h4" sx={{ margin: '', color: 'white' }}>Blueprinted</Typography>
-    <div sx={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-      <Link to="/fyp-blueprinted-site" sx={{ margin: '0 1em 0 0', color: 'white' }}>Home</Link>
-      <Link to="/fyp-blueprinted-site/poster" sx={{ margin: '0 1em 0 0', color: 'white' }}>Poster</Link>
-    </div>
+    </Link>
   </AppBar>
   {underConstruction && <>
   <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', bgcolor: 'secondary.main', width: '100%', padding: '0 0 1em 0' }}>

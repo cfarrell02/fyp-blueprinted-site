@@ -18,7 +18,7 @@ code {
 
 .square{
   background-color: #dfdddd;
-  margin: 1em 5em;
   border-radius: 5em;
+  margin: 0 1em;
 }
 
