@@ -3,10 +3,10 @@
     "student_number" : "20094046",
     "course" : "Computer Science (Games)",
     "titles" : {
-        "academic_title" : "Procedurally Generated 3D Open-World Unity Game With In-Depth Resource Management and Advanced Enemy AI.",
+        "academic_title" : "Procedurally Generated 3D Open-World Unity Game With In-Depth Resource Management and Advanced AI.",
         "commercial_title" : "Blueprinted"
     },
-    "project_description" : "Blueprinted is a 3D game where a player starts in an infinitely expansive procedurally generated world. The player takes the role of a lost adventurer stranded in an abandoned environment. The player must use all resources available to them in order to survive and thrive. With these resources the player can build shelters and defences against nightly waves of enemies.  The player is unable to block themselves away from the enemy and must deal with them in their droves, in a tower defence manner, during the night. Blueprinted contains many complex features such as advanced procedural generation to allow for unique playthroughs each time, advanced enemy AI that will keep players alert and dynamic difficulty that will ensure the game matches the players skill level as they progress through the game.",
+    "project_description" : "Blueprinted is a 3D game where a player starts in an infinitely expansive procedurally generated world. The player takes the role of a lost adventurer stranded in an abandoned environment. They must use all resources available to them to survive and thrive. With these resources, they can build shelters and defenses against nightly waves of enemies.  They are however unable to block themselves away from the enemy and must deal with them in their nightly droves, in a tower defense manner. Blueprinted contains many complex features such as advanced procedural generation to allow for unique playthroughs each time, advanced enemy AI that will keep players alert and dynamic difficulty that will ensure the game matches the player's skill level as they progress through the game.",
     "image_file" : "PFP_White.png",
     "logo_file" : "Blueprinted_Logo.png",
     "links" : [
