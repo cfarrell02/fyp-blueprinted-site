@@ -1,6 +1,6 @@
 import {React} from 'react';
 import { Container, Divider, Grid, Typography, Link, Box, List, ListItem, ListItemText, ListItemIcon } from '@mui/material';
-import placeholderImage from '../../images/placeholder.png';
+import placeholderImage from '../../images/FYP_Poster.png';
 import data from "../../data/main.json";
 import SchoolIcon from '@mui/icons-material/School';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
